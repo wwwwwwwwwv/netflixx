@@ -1,0 +1,106 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  background-image: url('/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large\ 1.png');
+}
+.netx img{
+  display: flex;
+  width: 200px;
+  height: 119px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.box{
+  width: 380px;
+  height: 500px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.80);
+  margin-left: 460px;
+}
+h1{
+  color: #FFF;
+  font-size: 30px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 20px 40px;
+}
+input{
+  border-radius: 5px;
+  font-size: 20px;
+  margin-left:55px;
+  margin-top: 20px;
+  height: 50px;
+  overflow: 0;
+  border: 0;
+}
+.ssa{
+ border-radius: 5px;
+  background: #E50914;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 50px;
+  margin-left: 62px;
+  margin-top: 40px; 
+  
+}
+.ssa a{
+  color: #FFF;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 85px;
+}
+.refer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px;
+
+}
+
+h2{
+  color: #6A6868;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px; 
+  margin-top: 15px;
+}
+h3{
+  margin-left: 30px;
+  padding: 10px;
+  color: #6A6868;
+  font-size: 10px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+}
+p{
+  color: #6A6868;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+span{
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+  color: #6A6868;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:10px;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+.viv{
+  color: #0071EB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:12px;
+ 
+}

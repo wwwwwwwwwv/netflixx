@@ -1,0 +1,146 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header img{
+    display: flex;
+    width: 200px;
+    height: 119px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+  }
+  header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+   
+  }
+  nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  nav{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  }
+  .glav{
+    background-color: rgb(0, 0, 0); 
+    width: 100%;
+    height: 100vh;
+  }
+  .glav h1{
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .text{
+    width: 600px;
+    height: 250px;
+    padding: 60px;
+    margin-top: -100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .top{
+    background-color: #E50914;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;  
+    
+  }
+  .top h2{
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h3{
+    color: #fff;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+.obsh{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.play{
+  background-color: #fff;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 50px;
+}
+.play p{
+  font-size: 25px;
+  display: flex;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.play svg{
+  margin-left: 20px;
+  width: 25px;
+}
+.vini{
+  background-color: rgba(106, 104, 104, 0.75);
+  width: 200px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+.vini h4{
+  color: #fff;
+}
+.xlerg{
+  display: flex;
+  gap: 20px;
+}
+.move{
+  background-color: rgb(0, 0, 0); 
+  width: 100%;
+  height: 200vh;
+}
+.move p{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 100px 100px;
+  font-size: 20px;
+}
+.film{
+  width: 100%;
+  display: grid;
+  grid-template-columns:50% 50%;
+  gap: 50px;
+  overflow: hidden;
+  margin-left: 175px;
+}
+.vip{
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.vip :hover{
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+ .film img{
+  width: 250px;
+  height: 250px;
+}
+
+nav a:hover{
+  color: #E50914;
+}
